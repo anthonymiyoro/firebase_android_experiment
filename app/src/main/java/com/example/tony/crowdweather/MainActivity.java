@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
@@ -17,6 +19,9 @@ public class MainActivity extends Activity {
     @Override
     protected void  onStart(){
         super.onStart();
+        Button cloudy = (Button) findViewById(R.id.cloudy);
+        Button sunny = (Button) findViewById(R.id.sunny);
+        TextView textview = (TextView) findViewById(R.id.textView);
     }
 
 
